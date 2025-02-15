@@ -1,4 +1,3 @@
-import BlogList from "@/components/medium/BlogList";
 import ProfileDetails from "@/components/profile/ProfileDetails";
 import { mediumServices } from "@/services/medium.services";
 import "./page.css";
@@ -10,8 +9,6 @@ export default async function Home() {
   return (
     <div className="home-container">
       <ProfileDetails />
-      {/* <hr /> */}
-
       <Medium mediumData={mediumData?.data} />
     </div>
   );

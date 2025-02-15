@@ -7,7 +7,7 @@ export const metadata: Metadata = {
 };
 
 import { AppRouterCacheProvider } from "@mui/material-nextjs/v15-appRouter";
-import { Roboto, Inter } from "next/font/google";
+import { Inter } from "next/font/google";
 import { ThemeProvider } from "@mui/material/styles";
 import theme from "../theme";
 
