@@ -1,0 +1,34 @@
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.profile-container h2 {
+  margin-top: 20px;
+  border-bottom: 1px solid;
+  border-width: 5px;
+  width: fit-content;
+}
+
+.profile-container ul {
+  margin-left: 30px;
+}
+
+.profile-container .links {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.profile-container .links a:hover {
+  text-decoration: underline;
+}
+
+.profile-container .role {
+  line-height: 26px;
+}
